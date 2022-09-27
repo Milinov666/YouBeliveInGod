@@ -1,0 +1,73 @@
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
+
+
+body {
+  background-image: url(https://3djungle.ru/upload/resize_cache/iblock/2ef/400_400_1/2efbde5eea73f55b444881939137a941.jpg);
+}
+
+.container {
+  padding: 15px 15px 15px 15px;
+  width: 900px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgb(34, 34, 34);
+  -webkit-box-shadow: 0px 0px 70px 70px rgba(255, 255, 255, 0.4);
+  -moz-box-shadow: 0px 0px 70px 70px rgba(255, 255, 255, 0.4);
+  box-shadow: 0px 0px 70px 70px rgba(255, 255, 255, 0.4);
+}
+
+.photo {
+  height: 150px;
+  width: 150px;
+  background-image: url(https://sun9-8.userapi.com/impg/oMeAnjb_TScU53nZHTNHerXIuOvTljcFclk_hQ/A7KtUkfqrFM.jpg?size=1042x804&quality=95&sign=2fdd603b2cf96dc203260780dbceff20&type=album);
+  background-position: center;
+  background-size: 100%;
+  border-radius: 150px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.fio {
+  text-align: center;
+  color: white;
+}
+
+.socialsets {
+  height: 50px;
+  width: 900px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+
+.social a {
+  text-align: center;
+  width: 48px;
+  float: left;
+  background: #fff;
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15), inset 0 0 50px rgba(0, 0, 0, 0.1);
+  border-radius: 24px;
+  margin: 0 10px 10px 0;
+  padding: 6px;
+  color: #000;
+}
+
+.github a:hover {
+  background: #191919;
+  color: #fff;
+}
+
+.vk a:hover {
+  background: #5d84ae;
+  color: #fff;
+}
+
+.odnoklassniki a:hover {
+  background: #f93;
+  color: #fff;
+}
